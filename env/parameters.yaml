@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:giversulpher/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: pmuir@bleepbleep.org.uk
+  token: vault:giversulpher/pipelineUser:token
+  username: muirp-owner
+prow:
+  hmacToken: vault:giversulpher/prow:hmacToken
